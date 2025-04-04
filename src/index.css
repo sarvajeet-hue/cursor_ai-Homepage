@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+
+body{background: #000;}
+.container{max-width: 1300px; margin: 0 auto; padding:0px 15px;}
+.headercolor{position: fixed; top:0; left: 0; z-index: 999; width: 100%;}
+.banner{position: relative; margin-top: 60px;  overflow: hidden;}
+.banner h1{ font-size: 80px; color: #fff; font-weight: 800;}
+.bnnertext{position: absolute; top: 10%; left: 0; right: 0; max-width:1300px; text-align: center; margin: 0 auto;}
+.banner p{ font-size: 30px; color: #fff; font-weight: 500; padding: 15px 0px 40px;}
+.banner span{ font-size: 20px; color: #000; font-weight: 500; padding: 15px 0px; background: #fff; padding: 12px 30px; border-radius: 10px; margin: 0px 20px;}
+.bnnertext img{width: 100%; margin: 30px auto 0;}
+.containerss{position: relative;}
+.headercolors{background: #f00; width: 100%;}
+
+
+@media screen and (max-width: 992px) {
+  .bnnertext h1{font-size: 40px;}
+  .bnnertext p{font-size: 22px;}
+  .banner span{padding: 8px 25px; font-size: 18px;}
+}
+
+@media screen and (max-width: 767px) {
+  
+  .banner img{height: 600px;}
+  .bnnertext h1{font-size: 40px;}
+  .bnnertext p{font-size: 22px;}
+  .banner span{padding: 8px 15px; font-size: 18px; margin: 0px 5px;}
+}
