@@ -1,6 +1,7 @@
 import Navbar from "./components/common/Navbar";
 import cursor_img from "./assets/gradient-hero-prerender.avif";
 import curor_temp from "./assets/watch-demo.avif";
+import Banner from "./components/banner/Banner";
 
 function App() {
   return (
@@ -31,7 +32,8 @@ function App() {
       </div> */}
 
         <div>
-          <Navbar/>
+          <Navbar/>  
+          <Banner/>
         </div>
 
 
