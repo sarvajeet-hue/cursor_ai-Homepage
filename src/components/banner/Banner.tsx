@@ -11,7 +11,7 @@ const Banner = () => {
 
 
       <div className="relative flex flex-col items-center  text-center mt-[30px]  px-4 ">
-        <h1 className="text-white font-semibold text-4xl sm:text-6xl md:text-7xl lg:text-8xl">
+        <h1 style={{fontFamily:"Geist"}} className="text-white font-semibold text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-serif ">
           The AI Code Editor
         </h1>
 
