@@ -31,7 +31,7 @@ function App() {
         <p> kj kj klj kl jkl j klj kl jkl j kl jkl j klj kl jkl h jhgh gf h</p>
       </div> */}
 
-        <div>
+        <div className="px-8">
           <Navbar/>  
           <Banner/>
         </div>
