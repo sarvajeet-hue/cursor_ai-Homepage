@@ -11,7 +11,7 @@ const Navbar = () => {
             <img
               src={cursor_icon}
               alt=""
-              className="w-[30px]  transition-transform duration-500 group-hover:rotate-[360deg] "
+              className="w-[30px]  transition-transform duration-500 group-hover:rotate-y-[360deg] "
             />
             <h1 className="font-bold text-2xl">CURSOR</h1>
           </div>
