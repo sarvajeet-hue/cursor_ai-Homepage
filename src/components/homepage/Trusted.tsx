@@ -1,7 +1,8 @@
 import cursor_image from "../../assets/gradient-hero-prerender.avif";
+import { Button } from "../ui/button";
 export const Trusted = () => {
   return (
-    <div className="max-w-7xl mx-auto px-4 py-6 mt-[80px]">
+    <div className="max-w-7xl mx-auto px-1 py-6 mt-[80px]">
       <div className="flex flex-col gap-3 ">
         <p className="text-lg font-mono  text-gray-400 text-center">
           TRUSTED BY ENGINEERS AT
@@ -131,30 +132,113 @@ export const Trusted = () => {
       </div>
 
       <section className="mt-[80px]">
-        <div className="flex flex-col text-gray-400 text-center gap-6">
+        <div className="flex flex-col text-white text-center gap-6 ">
           <div className="flex flex-col gap-3">
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold font-mono tracking-tight ">
               Tab, tab, tab
             </h1>
-            <p className="text-md sm:text-2xl lg:text-4xl  font-mono">
+            <p className="text-sm  md:text-md lg:text-lg font-mono">
               Cursor lets you breeze through changes by predicting your next
               edit.
             </p>
           </div>
 
-          <div className="relative overflow-hidden">
-            <img
-              src={cursor_image}
-              alt=""
-              className="w-full object-cover rounded-2xl"
-            />
+          <div className="relative w-full overflow-hidden rounded-2xl bg-brand-gray-300 px-4 pt-4 md:rounded-3xl md:px-6 md:pt-6 lg:aspect-[1296/670] lg:p-0 bg-cover"
+            style={{backgroundImage : `url(${cursor_image})`}}>
+                <video
+                  className="relative top-[10%] overflow-hidden rounded-t-lg w-full max-w-4xl left-1/2 transform -translate-x-1/2 px-6 "
+                  preload="auto"
+                  src="https://assets.basehub.com/191e7e6d/ad4eb38cfa78d745acec4f5faf8d73c1/current-best-for-one-mp4.mp4"
+                ></video>    
+            
 
-            <div className="absolute z-50">
-                <video src="https://assets.basehub.com/191e7e6d/ad4eb38cfa78d745acec4f5faf8d73c1/current-best-for-one-mp4.mp4"></video>
-            </div>
           </div>
+
+          
         </div>
-      </section>    
+      </section>
+
+      <section className="mt-[80px]">
+        <div className="flex flex-col text-white text-center gap-6 ">
+          <div className="flex flex-col gap-3">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold font-mono tracking-tight ">
+            Knows your codebase
+            </h1>
+            <p className="text-sm  md:text-md lg:text-lg font-mono">
+            Get answers from your codebase or refer to files or docs. Use the model’s code in one click.
+            </p>
+          </div>
+
+          <div className="relative w-full overflow-hidden rounded-2xl bg-brand-gray-300 px-4 pt-4 md:rounded-3xl md:px-6 md:pt-6 lg:aspect-[1296/670] lg:p-0 bg-cover"
+            style={{backgroundImage : `url(${cursor_image})`}}>
+                <video
+                  className="relative top-[10%] overflow-hidden rounded-t-lg w-full max-w-4xl left-1/2 transform -translate-x-1/2 px-6 "
+                  preload="auto"
+                  src="https://assets.basehub.com/191e7e6d/2c99e8a087f981290dc74d2b621a7192/current-best-for-two-mp4.mp4"
+                ></video>    
+            
+
+          </div>
+
+          
+        </div>
+      </section>
+
+      <section className="mt-[80px] ">
+        <div className="flex flex-col text-white text-center gap-6 ">
+          <div className="flex flex-col gap-3">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold font-mono tracking-tight ">
+            Edit in natural language
+            </h1>
+            <p className="text-sm  md:text-md lg:text-lg font-mono">
+            Cursor lets you write code using instructions. Update entire classes or functions with a simple prompt.
+            </p>
+          </div>
+
+          <div className="relative w-full overflow-hidden rounded-2xl bg-brand-gray-300 px-4 pt-4 md:rounded-3xl md:px-6 md:pt-6 lg:aspect-[1296/670] lg:p-0 bg-cover"
+            style={{backgroundImage : `url(${cursor_image})`}}>
+                <video
+                  className="relative top-[10%] overflow-hidden rounded-t-lg w-full max-w-4xl left-1/2 transform -translate-x-1/2 px-6 "
+                  preload="auto"
+                  src="https://assets.basehub.com/191e7e6d/8ea9258a063943d01c1454f028b5294b/website-three-mp4.mp4"
+                ></video>    
+            
+
+          </div>
+
+          
+        </div>
+      </section>
+
+
+
+      <section className="mt-[80px] flex flex-col gap-9">
+        <div className="text-gray-300 px-3">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold font-mono tracking-tight mb-3 ">Build software faster</h1>
+            <div className="flex flex-col  md:flex-row md:items-center md:justify-between ">
+                <p className="text-sm  md:text-md lg:text-lg font-mono">Intelligent, fast, and familiar, Cursor is the best way to code with AI.</p>
+                <div>
+                    <Button className="font-mono font-bold" variant={'secondary'} >SEE MORE FEATURES</Button>
+                </div>
+                
+            </div>
+        </div>
+        <div className='grid grid-cols-3 gap-4  font-mono   '>
+            <div className="p-4 flex flex-col gap-9 ">
+                <div className="flex flex-col gap-4">
+                    <h1 className="text-md sm:text-lg md:text-xl lg:text-2xl font-bold text-white font-mono tracking-tight ">Frontier Intelligence</h1>
+                    <p className="text-sm md:text-md lg:text-lg font-mono text-gray-500">Powered by a mix of purpose-built and frontier models, Cursor is smart and fast.</p>
+                </div>
+                <div className="relative">
+                <img alt="" loading="lazy" width="1065" height="921" decoding="async" data-nimg="1" className="pointer-events-none absolute inset-0 h-auto w-full select-none dark:[mix-blend-mode:lighten] " src="https://assets.basehub.com/191e7e6d/a8f31b5eade8c4a868b8831955ea455c/frontier-black.webp" style={{color: "transparent"}}/>
+                <video src="https://assets.basehub.com/191e7e6d/85d83ff8429b4ab1c6f99c364e55d474/frontier-black.mp4" poster="https://assets.basehub.com/191e7e6d/a8f31b5eade8c4a868b8831955ea455c/frontier-black.webp"></video>
+                </div>
+            </div>
+            <div className="border border-white"></div>
+            <div className="border border-white"></div>
+        </div>      
+        
+      </section>
     </div>
   );
 };

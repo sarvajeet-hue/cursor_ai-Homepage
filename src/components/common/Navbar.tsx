@@ -5,7 +5,7 @@ import cursor_icon from "../../assets/cursor_icon dark.png";
 const Navbar = () => {
   return (
     <div className="fixed w-full top-[20px] z-50 left-0   ">
-      <div className="max-w-7xl mx-auto p-4 bg-black rounded-2xl shadow-lg">
+      <div className="max-w-7xl mx-auto p-4 bg-black rounded-2xl shadow-lg shadow-cyan-500/50">
         <nav className="text-white flex items-center justify-between px-4">
           <div className="flex items-center gap-3 group">
             <img
@@ -13,6 +13,7 @@ const Navbar = () => {
               alt=""
               className="w-[30px]  transition-transform duration-500 group-hover:rotate-y-[360deg] "
             />
+            
             <h1 className="font-bold text-2xl">CURSOR</h1>
           </div>
 
@@ -25,14 +26,14 @@ const Navbar = () => {
             <p>CAREERS</p>
           </div>
 
-          <div className="hidden lg:flex items-center gap-3 font-semibold font-mono">
+          <div className="hidden lg:flex items-center gap-3 font-bold font-mono">
             <Button>Sign In</Button>
             <Button variant="secondary">
               <svg
                 className="size-4.5 md:size-6"
                 fill="none"
                 viewBox="0 0 14 16"
-                xmlns="http://www.w3.org/2000/svg"
+                xmlns="http://www.w3.org/2000/svg"      
                 aria-hidden="true"
               >
                 <path
