@@ -136,7 +136,7 @@ export const Trusted = () => {
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold font-mono tracking-tight ">
               Tab, tab, tab
             </h1>
-            <p className="text-2xl font-mono">
+            <p className="text-md sm:text-2xl lg:text-4xl  font-mono">
               Cursor lets you breeze through changes by predicting your next
               edit.
             </p>
