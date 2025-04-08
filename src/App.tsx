@@ -2,6 +2,7 @@ import Navbar from "./components/common/Navbar";
 import cursor_img from "./assets/gradient-hero-prerender.avif";
 import curor_temp from "./assets/watch-demo.avif";
 import Banner from "./components/banner/Banner";
+import { Trusted } from "./components/homepage/Trusted";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <div className="px-8">
           <Navbar/>  
           <Banner/>
+          <Trusted/>
         </div>
 
 

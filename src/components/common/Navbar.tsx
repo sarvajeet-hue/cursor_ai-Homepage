@@ -16,7 +16,7 @@ const Navbar = () => {
             <h1 className="font-bold text-2xl">CURSOR</h1>
           </div>
 
-          <div className="hidden lg:flex items-center gap-3 font-semibold">
+          <div className="hidden lg:flex text-lg items-center gap-3 font-semibold font-mono text-gray-400">
             <p>PRICING</p>
             <p>FEATURES</p>
             <p>ENTERPRISE</p>
@@ -25,7 +25,7 @@ const Navbar = () => {
             <p>CAREERS</p>
           </div>
 
-          <div className="hidden lg:flex items-center gap-3">
+          <div className="hidden lg:flex items-center gap-3 font-semibold font-mono">
             <Button>Sign In</Button>
             <Button variant="secondary">
               <svg
