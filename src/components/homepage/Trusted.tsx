@@ -224,14 +224,14 @@ export const Trusted = () => {
             </div>
         </div>
         <div className='grid grid-cols-3 gap-4  font-mono   '>
-            <div className="p-4 flex flex-col gap-9 ">
+            <div className="p-4 flex flex-col gap-9 rounded-2xl relative  ">
                 <div className="flex flex-col gap-4">
                     <h1 className="text-md sm:text-lg md:text-xl lg:text-2xl font-bold text-white font-mono tracking-tight ">Frontier Intelligence</h1>
                     <p className="text-sm md:text-md lg:text-lg font-mono text-gray-500">Powered by a mix of purpose-built and frontier models, Cursor is smart and fast.</p>
                 </div>
                 <div className="relative">
-                <img alt="" loading="lazy" width="1065" height="921" decoding="async" data-nimg="1" className="pointer-events-none absolute inset-0 h-auto w-full select-none dark:[mix-blend-mode:lighten] " src="https://assets.basehub.com/191e7e6d/a8f31b5eade8c4a868b8831955ea455c/frontier-black.webp" style={{color: "transparent"}}/>
-                <video src="https://assets.basehub.com/191e7e6d/85d83ff8429b4ab1c6f99c364e55d474/frontier-black.mp4" poster="https://assets.basehub.com/191e7e6d/a8f31b5eade8c4a868b8831955ea455c/frontier-black.webp"></video>
+                {/* <img alt="" loading="lazy" width="1065" height="921" decoding="async" data-nimg="1" className="pointer-events-none absolute inset-0 h-auto w-full select-none dark:[mix-blend-mode:lighten] " src="https://assets.basehub.com/191e7e6d/a8f31b5eade8c4a868b8831955ea455c/frontier-black.webp" style={{color: "transparent"}}/> */}
+                <video className="rounded-2xl" src="https://assets.basehub.com/191e7e6d/85d83ff8429b4ab1c6f99c364e55d474/frontier-black.mp4" poster="https://assets.basehub.com/191e7e6d/a8f31b5eade8c4a868b8831955ea455c/frontier-black.webp"></video>
                 </div>
             </div>
             <div className="border border-white"></div>
