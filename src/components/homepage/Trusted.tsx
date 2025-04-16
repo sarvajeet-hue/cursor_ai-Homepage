@@ -232,7 +232,7 @@ export const Trusted = () => {
         <div className="lg:grid grid-cols-3 gap-4  font-mono hidden">
           <div className="p-4 flex flex-col gap-9 rounded-2xl relative border  ">
             <div className="flex flex-col gap-4">
-              <h1 className="text-md sm:text-lg md:text-xl lg:text-2xl font-bold text-white font-mono tracking-tight ">
+              <h1 className="text-md sm:text-lg md:text-xl lg:text-3xl font-bold text-white font-mono tracking-tight ">
                 Frontier Intelligence
               </h1>
               <p className="text-sm md:text-md lg:text-lg font-mono text-gray-500">
@@ -252,7 +252,7 @@ export const Trusted = () => {
 
           <div className="p-4 flex flex-col gap-9 rounded-2xl justify-between relative border ">
             <div className="flex flex-col gap-4">
-              <h1 className="text-md sm:text-lg md:text-xl lg:text-2xl font-bold text-white font-mono tracking-tight ">
+              <h1 className="text-md sm:text-lg md:text-xl lg:text-3xl font-bold text-white font-mono tracking-tight ">
                 Feels Familier
               </h1>
               <p className="text-sm md:text-md lg:text-lg font-mono text-gray-500">
@@ -272,7 +272,7 @@ export const Trusted = () => {
 
           <div className="p-4 flex flex-col gap-9 rounded-2xl relative border  ">
             <div className="flex flex-col gap-4">
-              <h1 className="text-md sm:text-lg md:text-xl lg:text-2xl font-bold text-white font-mono tracking-tight ">
+              <h1 className="text-md sm:text-lg md:text-xl lg:text-3xl font-bold text-white font-mono tracking-tight ">
                 Privacy Options
               </h1>
               <p className="text-sm md:text-md lg:text-lg font-mono text-gray-500">
@@ -339,7 +339,7 @@ export const Trusted = () => {
               <CarouselItem className="basis-1/3 min-w-sm max-w-sm shrink-0">
                 <div className="p-4 flex flex-col gap-9 rounded-2xl relative border  ">
                   <div className="flex flex-col gap-4">
-                    <h1 className="text-md sm:text-lg md:text-xl lg:text-2xl font-bold text-white font-mono tracking-tight ">
+                    <h1 className="text-md sm:text-lg md:text-2xl lg:text-7xl font-bold text-white font-mono tracking-tight ">
                       Privacy Options
                     </h1>
                     <p className="text-sm md:text-md lg:text-lg font-mono text-gray-500">
