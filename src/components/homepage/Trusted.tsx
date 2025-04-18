@@ -1,5 +1,6 @@
 import cursor_image from "../../assets/gradient-hero-prerender.avif";
 import { Button } from "../ui/button";
+import arvind from "../../assets/arvid.avif";
 import {
   Carousel,
   CarouselContent,
@@ -217,7 +218,7 @@ export const Trusted = () => {
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold font-mono tracking-tight mb-3 ">
             Build software faster
           </h1>
-          <div className="flex flex-col  md:flex-row md:items-center md:justify-between ">
+          <div className="flex flex-col gap-4  md:flex-row md:items-center md:justify-between ">
             <p className="text-sm  md:text-md lg:text-lg font-mono">
               Intelligent, fast, and familiar, Cursor is the best way to code
               with AI.
@@ -270,8 +271,8 @@ export const Trusted = () => {
             </div>
           </div>
 
-          <div className="p-4 flex flex-col gap-9 rounded-2xl relative border  ">
-            <div className="flex flex-col gap-4">
+          <div className="p-4 flex flex-col gap-9 rounded-2xl relative border justify-between  ">
+            <div className="flex flex-col gap-4 ">
               <h1 className="text-md sm:text-lg md:text-xl lg:text-3xl font-bold text-white font-mono tracking-tight ">
                 Privacy Options
               </h1>
@@ -291,13 +292,15 @@ export const Trusted = () => {
           </div>
         </div>
 
-        <div >
+        {/* corousal */}
+
+        <div>
           <Carousel className="text-gray-300 px-3 lg:hidden  ">
-            <CarouselContent >
+            <CarouselContent>
               <CarouselItem className="basis-1/3 min-w-sm max-w-sm shrink-0">
                 <div className="p-4 flex flex-col gap-9 rounded-2xl relative border">
                   <div className="flex flex-col gap-4">
-                    <h1 className="text-md sm:text-lg md:text-xl lg:text-2xl font-bold text-white font-mono tracking-tight ">
+                    <h1 className="text-xl sm:text-xl md:text-2xl lg:text-4xl font-bold text-white font-mono tracking-tight ">
                       Frontier Intelligence
                     </h1>
                     <p className="text-sm md:text-md lg:text-lg font-mono text-gray-500">
@@ -318,7 +321,7 @@ export const Trusted = () => {
               <CarouselItem className="basis-1/3 min-w-sm max-w-sm shrink-0">
                 <div className="p-4 flex flex-col gap-9 rounded-2xl justify-between relative border ">
                   <div className="flex flex-col gap-4">
-                    <h1 className="text-md sm:text-lg md:text-xl lg:text-2xl font-bold text-white font-mono tracking-tight ">
+                    <h1 className="text-xl sm:text-xl  md:text-2xl lg:text-4xl font-bold text-white font-mono tracking-tight ">
                       Feels Familier
                     </h1>
                     <p className="text-sm md:text-md lg:text-lg font-mono text-gray-500">
@@ -339,7 +342,7 @@ export const Trusted = () => {
               <CarouselItem className="basis-1/3 min-w-sm max-w-sm shrink-0">
                 <div className="p-4 flex flex-col gap-9 rounded-2xl relative border  ">
                   <div className="flex flex-col gap-4">
-                    <h1 className="text-md sm:text-lg md:text-2xl lg:text-7xl font-bold text-white font-mono tracking-tight ">
+                    <h1 className="text-xl sm:text-xl md:text-2xl lg:text-4xl font-bold text-white font-mono tracking-tight ">
                       Privacy Options
                     </h1>
                     <p className="text-sm md:text-md lg:text-lg font-mono text-gray-500">
@@ -359,6 +362,67 @@ export const Trusted = () => {
               </CarouselItem>
             </CarouselContent>
           </Carousel>
+        </div>
+      </section>
+
+      {/* blog-section in homepage */}
+
+      <section className="mt-[80px] lg:hidden ">
+        <div className="max-w-5xl mx-auto ">
+          <div className="flex flex-col gap-5 border border-gray-700 p-6 md:p-10 rounded-2xl bg-black-900 ">
+            <div>
+              <h1 className="text-gray-400 font-semibold font-mono text-xl">
+                BLOG
+              </h1>
+            </div>
+
+            <div
+              className="bg-cover bg-center h-full rounded-3xl min-h-[600px]"
+              style={{
+                backgroundImage: `url(${cursor_image})`,
+                height: "100%",
+              }}
+            ></div>
+
+            <div className="flex flex-col gap-6  mt-12">
+              <h1 className="text-2xl/[1.6875rem] font-semibold -tracking-4 md:text-4xl/[2.625rem] text-white text-balance">
+                Iterating with Shadow Workspaces
+              </h1>
+
+              <p className="[&_b]:md:font-semibold [&_strong]:md:font-semibold font-mono text-base/[1.125rem] md:text-lg/[1.5rem] !text-pretty !leading-normal text-gray-600">
+                Hidden windows and kernel-level folder proxies to let AIs
+                iterate on code without affecting the user.
+              </p>
+
+              <div>
+                <Button className="font-semibold font-mono md:text-lg/[1.5rem]">
+                  KEEP READING
+                </Button>
+              </div>
+
+              <div className="flex items-center gap-6 mt-[80px]">
+                <div>
+                  <img src={arvind} alt="" height={80} width={80} className="rounded-xl" />
+                </div>
+
+                <div className="flex flex-col gap-1">
+                  <p className="[&_b]:md:font-semibold [&_strong]:md:font-semibold font-mono text-base/[1.125rem] md:text-lg/[1.5rem] text-gray-300">
+                    {" "}
+                    Posted by <b>Arvid</b>
+                  </p>
+                  <p className="[&amp;_b]:md:font-semibold [&amp;_strong]:md:font-semibold font-mono text-sm/[1.125rem] md:text-base/[1.375rem] text-gray-600 dark:text-brand-neutrals-400">19 minutes read</p>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section>
+        <div className="max-w-5xl mx-auto ">
+          
         </div>
       </section>
     </div>

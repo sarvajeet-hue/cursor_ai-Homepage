@@ -17,7 +17,7 @@ const Navbar = () => {
             <h1 className="font-bold text-md sm:text:lg md:text-xl lg:text-2xl">CURSOR</h1>
           </div>
 
-          <div className="hidden lg:flex text-lg items-center gap-4 font-semibold font-mono text-gray-400">
+          <div className="hidden lg:flex text-lg items-center  gap-4   font-semibold font-mono text-gray-400">
             <p>PRICING</p>
             <p>FEATURES</p>
             <p>ENTERPRISE</p>
