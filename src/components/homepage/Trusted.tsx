@@ -420,10 +420,10 @@ export const Trusted = () => {
       </section>
 
 
-      <section>
-        <div className="max-w-5xl mx-auto ">
-          
-        </div>
+      <section className="mt-[80px] ">
+            <div className="grid grid-cols-2 justify-between ">
+
+            </div>
       </section>
     </div>
   );
